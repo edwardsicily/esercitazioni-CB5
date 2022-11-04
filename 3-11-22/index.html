@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esercitazione 3-11-22</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script defer src="./app.js" type="module"></script>
+    <script defer src="./myMock.js" type="module"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="search-and-filter">
+        <div class="search">
+          <span class="material-symbols-outlined standard-icon"> menu </span>
+          <div class="input-element">
+            <span class="material-symbols-outlined"> search </span>
+            <input type="search" name="" id="" placeholder="Search" />
+          </div>
+        </div>
+        <div class="filter">
+          <button class="all-chats">All Chats</button>
+          <button class="users-chats">Personal</button>
+        </div>
+      </div>
+      <div class="chats"></div>
+    </nav>
+
+    <!-- OTHER SIDE OF THE MOON -->
+    <section class="content">
+      <div class="top">
+        <div class="info">
+          <img
+            class="avatar"
+            src="./images/icon-placeholder.png"
+            alt="Avatar"
+          />
+          <div class="user-data">
+            <h4>nome</h4>
+            <p>dati</p>
+          </div>
+        </div>
+        <div class="icons">
+          <span class="material-symbols-outlined standard-icon"> search </span>
+          <span class="material-symbols-outlined standard-icon">
+            more_vert
+          </span>
+        </div>
+      </div>
+      <div class="contextmenu hide">
+        <ul class="menu-list">
+          <li class="menu-item">
+            <button>Undo</button>
+          </li>
+        </ul>
+        <hr />
+        <ul class="menu-list">
+          <li class="menu-item">
+            <button>Copy</button>
+          </li>
+          <li class="menu-item">
+            <button>Cut</button>
+          </li>
+          <li class="menu-item">
+            <button>Paste</button>
+          </li>
+        </ul>
+        <hr />
+        <ul class="menu-list">
+          <li class="menu-item">
+            <button>Select all</button>
+          </li>
+        </ul>
+      </div>
+      <div class="bottom">
+        <div class="input-area">
+          <span class="material-symbols-outlined standard-icon">
+            sentiment_satisfied
+          </span>
+          <input type="text" placeholder="Message" />
+          <span class="material-symbols-outlined attached standard-icon">
+            attach_file
+          </span>
+        </div>
+        <span class="material-symbols-outlined mic"> mic </span>
+      </div>
+    </section>
+  </body>
+</html>
