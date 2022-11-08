@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
+body {
+  background: linear-gradient(90deg, #acb6e5, #86fde8);
+  font-family: 'Harmattan', sans-serif;
+}
+.wrapper {
+  margin: 50px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+}
+.title {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.list {
+  margin: 0 12px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.502);
+  margin: 5px 10px;
+  padding:10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card h3,
+.card h4{
+  margin: 15px;
+}
+.card h3{
+  font-size: 20px;
+}
+.pokemon-type{
+  font-size: 18px;
+  font-weight: normal;
+}
+.artwork-img{
+
+  width: 150px;
+  height: 150px;
+}
+.pokemon-number{
+  background-color:  rgba(141, 144, 147, .4);
+  padding:  1px 6px;
+  border-radius: 5px ;
+}
