@@ -1,0 +1,38 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  height: 200px;
+  width: 100%;
+  margin: auto;
+  outline: 1px solid limegreen;
+  padding: 8px;
+}
+
+.post {
+  height: 80%;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btns {
+  display: flex;
+  justify-content: space-around;
+}
+.disabled {
+  opacity: 0.3;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 600px;
+  }
+}
