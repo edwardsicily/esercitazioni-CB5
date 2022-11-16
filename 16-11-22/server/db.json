@@ -1,0 +1,34 @@
+{
+  "pokemon": [
+    {
+      "id": "423b27da-d4e5-4646-a0bd-f73ed6a12525",
+      "name": "charizard",
+      "type": "fire"
+    },
+    {
+      "id": "4de1c81a-4d81-46ce-8268-39a60f745dcc",
+      "name": "bulbasaur",
+      "type": "grass"
+    },
+    {
+      "id": "3e9b641a-29cb-4c36-a07b-65c0098b457c",
+      "name": "lucario",
+      "type": "fighting"
+    },
+    {
+      "id": "cb2ad4aa-4e5c-4889-86af-dbb09601301d",
+      "name": "piplup",
+      "type": "water"
+    },
+    {
+      "id": "77e7c0a5-6b63-47b5-9936-90e684e45d25",
+      "name": "abra",
+      "type": "psychic"
+    },
+    {
+      "id": "f0d316ca-9980-442a-84d9-b9c053c390d8",
+      "name": "geodude",
+      "type": "rock"
+    }
+  ]
+}
