@@ -1,0 +1,183 @@
+:root {
+  --color-gray: #d1d0ce;
+  --color-warning: red;
+  --color-update: #ff6700;
+}
+
+.material-symbols-outlined {
+  font-size: 20px;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(90deg, #8360c3, #2ebf91);
+}
+#id {
+  display: none;
+}
+.wrapper {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+.forms {
+  margin-bottom: 8px;
+}
+.forms * {
+  margin-bottom: 10px;
+}
+
+.forms input {
+  box-sizing: border-box;
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+}
+.forms .btn-submit {
+  background: var(--color-gray);
+  width: 30px;
+  cursor: pointer;
+}
+.forms .btn-submit:hover {
+  background: var(--color-gray);
+}
+#pName,
+#pType,
+#up-pName,
+#up-pType {
+  border: 1px solid var(--color-gray);
+  margin: 0;
+  padding: 0 10px;
+  outline: none;
+}
+
+.cards ul {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+}
+.cards ul::-webkit-scrollbar {
+  display: none;
+}
+.cards ul li {
+  list-style: none;
+  width: 100%;
+}
+
+.card__content {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--color-gray);
+  border-radius: 4px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.card__content p {
+  margin: 0;
+}
+.btns-list {
+  background-color: #fff;
+  display: flex;
+  gap: 2px;
+}
+.btns-list button {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  color: #252525;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.btns-list button:hover {
+  color: #fff;
+}
+.del-btn {
+  border: 1px solid var(--color-warning);
+}
+.del-btn:hover {
+  background: var(--color-warning);
+}
+.up-btn {
+  border: 1px solid var(--color-update);
+}
+.up-btn:hover {
+  background: var(--color-update);
+}
+
+.list-btn {
+  font-size: 20px;
+}
+
+/* UTILS */
+.bg-grass {
+  background-color: #88d08d;
+}
+
+.bg-electric {
+  background-color: #ffe45d;
+}
+
+.bg-water {
+  background-color: #6cd0ff;
+}
+
+.bg-ground {
+  background-color: #f4e7da;
+}
+
+.bg-rock {
+  background-color: #d5d5d4;
+}
+
+.bg-fairy {
+  background-color: #fceaff;
+}
+
+.bg-poison {
+  background-color: #98d7a5;
+}
+
+.bg-bug {
+  background-color: #f8d5a3;
+}
+
+.bg-dragon {
+  background-color: #97b3e6;
+}
+
+.bg-psychic {
+  background-color: #eaeda1;
+}
+
+.bg-flying {
+  background-color: #f5f5f5;
+}
+
+.bg-fighting {
+  background-color: #e6e0d4;
+}
+
+.bg-normal {
+  background-color: #f5f5f5;
+}
+
+.bg-fire {
+  background-color: #ffadad;
+}
+
+.bg-ghost {
+  background-color: #705898;
+}
+
+.bg-ice {
+  background-color: #98d8d8;
+}
