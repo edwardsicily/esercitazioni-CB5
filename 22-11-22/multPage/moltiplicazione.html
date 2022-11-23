@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=s" />
+
+    <script defer src="./data.js" type="module"></script>
+    <script defer src="./api.js" type="module"></script>
+    <title>Sottrazione</title>
+  </head>
+  <body>
+    <nav>
+      <h2>Navbar</h2>
+      <ul>
+        <li><a href="../sumPage/somma.html">Somma</a></li>
+        <li><a href="../subPage/sottrazione.html">Sottrazione</a></li>
+        <li><a href="../multPage/moltiplicazione.html">Moltiplicazione</a></li>
+        <li><a href="../dividePage/divisione.html">Divisione</a></li>
+      </ul>
+    </nav>
+    <h3>Calcola Moltiplicazione</h3>
+    <form method="get" name="multForm">
+      <input type="number" name="p1" id="param1" />
+      <input type="number" name="p2" id="param2" />
+      <input type="submit" value="Calcola" />
+    </form>
+    <div class="Risultato">
+      <h3>Risultato:</h3>
+      <h3 class="data"></h3>
+    </div>
+  </body>
+</html>
