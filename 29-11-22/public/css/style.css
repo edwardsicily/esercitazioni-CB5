@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  margin: 0;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.hero {
+  padding: 22px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero h2 {
+  margin: 20px 0;
+  text-align: center;
+}
+.form-attori {
+  margin-bottom: 20px;
+}
+.form-attori form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+.form-attori input {
+  padding: 12px 3px;
+  border-radius: 3px;
+  border: 0.3px solid lightcoral;
+  outline: none;
+  width: 90%;
+}
+
+#form_btn {
+  width: 70%;
+
+  border: none;
+}
+#form_btn:hover {
+  cursor: pointer;
+}
+
+/* GALLERY  */
+.gallery {
+  border: 1px solid red;
+  width: 100%;
+  padding: 12px 22px;
+  text-align: center;
+}
+.gallery-title {
+  margin: 12px 0;
+}
+.card-attore {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 20px;
+  border-bottom: 1px solid #252525;
+}
+.card-attore h3 {
+  margin: 0;
+}
+.card-attore p {
+  margin: 0;
+}
+
+.nome-attore {
+}
+.cognome-attore {
+}
+.nascita-attore {
+}
+.actor-img {
+}
+
+@media (min-width: 1024px) {
+}

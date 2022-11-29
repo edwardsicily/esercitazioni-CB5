@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "nome": "Tom",
+    "cognome": "Cruise",
+    "data_nascita": "03/07/1962",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "1980",
+    "fine_attivita": "",
+    "in_attivita": true
+  },
+  {
+    "id": 2,
+    "nome": "Robert",
+    "cognome": "De Niro",
+    "data_nascita": "17/08/1943",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "1960",
+    "fine_attivita": "",
+    "in_attivita": true
+  },
+  {
+    "id": 3,
+    "nome": "Julia",
+    "cognome": "Roberts",
+    "data_nascita": "03/07/1967",
+    "riconoscimenti": "Elenco premi vinti",
+    "inizio_attivita": "1980",
+    "fine_attivita": "",
+    "in_attivita": true
+  },
+  {
+    "id": "",
+    "nome": "Pierfrancesco",
+    "cognome": "Favino",
+    "data_nascita": "24/08/69",
+    "riconoscimenti": "",
+    "inizio_attivita": "",
+    "fine_attivita": "",
+    "in_attivita": ""
+  },
+  {
+    "id": "ccdb91b9-9f2e-45cf-945d-30ba0ae85a53",
+    "nome": "Miriam",
+    "cognome": "Leone",
+    "data_nascita": "14/04/1985",
+    "riconoscimenti": "",
+    "inizio_attivita": "",
+    "fine_attivita": "",
+    "in_attivita": ""
+  }
+]
