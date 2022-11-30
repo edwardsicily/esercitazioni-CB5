@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  margin: 0;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.hero {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero h2 {
+  margin: 20px 0;
+  text-align: center;
+}
+.form-attori {
+  margin-bottom: 20px;
+}
+.form-attori form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+.form-attori input {
+  padding: 12px 10px;
+  border-radius: 5px;
+  border: 0.3px solid lightcoral;
+  outline: none;
+  width: 90%;
+}
+
+#form_btn {
+  width: 70%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background: lightcoral;
+  transition: all 0.3s ease-in-out;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+#form_btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+/* GALLERY  */
+
+.card_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 12px 22px;
+  text-align: center;
+}
+.gallery-title {
+  margin: 12px 0;
+}
+.card-attore {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.card-attore h3 {
+  margin: 0;
+}
+.card-attore p {
+  margin: 0;
+}
+
+.nome-attore {
+}
+.cognome-attore {
+}
+.nascita-attore {
+}
+.actor-img {
+}
+
+.btn-delete-card {
+  background: rgb(214, 115, 115);
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: all 0.3s ease-in-out;
+}
+.btn-delete-card:hover {
+  background: red;
+}
+.btn-delete-card span {
+  color: #fff;
+  cursor: pointer;
+}
+
+.notify-card {
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  position: absolute;
+  top: 10;
+  left: 0;
+  z-index: 2;
+}
+.notify-successful {
+  background-color: chartreuse;
+}
