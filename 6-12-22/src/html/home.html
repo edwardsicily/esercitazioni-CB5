@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Videoteca - Attori</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="hero">
+      <div class="form-attori">
+        <h2>Aggiungi i tuoi attori preferiti alla lista!</h2>
+        <form name="nuovi_attori">
+          <input
+            type="text"
+            name="nome_attore"
+            placeholder="Inserisci il nome dell'attore"
+            autocomplete="off"
+            required
+          />
+          <input
+            type="text"
+            name="cognome_attore"
+            placeholder="Inserisci il cognome dell'attore"
+            autocomplete="off"
+            required
+          />
+          <input
+            type="text"
+            name="nascita_attore"
+            autocomplete="off"
+            placeholder="Inserisci la data di nascita dell'attore"
+            required
+          />
+          <input id="form_btn" type="submit" value="ADD" />
+        </form>
+      </div>
+    </div>
+
+    <h2 class="gallery-title">Attori aggiunti di recente</h2>
+
+    <div class="card_container">
+      <!--card dinamiche-->
+    </div>
+
+    <script src="./js/script.js" type="module"></script>
+    <script src="./js/utils.js" type="module"></script>
+  </body>
+</html>
