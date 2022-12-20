@@ -1,0 +1,14 @@
+.btn {
+  padding: 1.2rem 1.7rem;
+  font-size: 1.5rem;
+  border-radius: 2px;
+  background: #f1d302;
+  border: none;
+  transition: all 0.2s ease-out;
+  text-underline-offset: 0.2rem;
+  cursor: pointer;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+.btn:hover {
+  background: rgb(253, 144, 10);
+}
