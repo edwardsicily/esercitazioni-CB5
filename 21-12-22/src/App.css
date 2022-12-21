@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  background: #61dafb;
+  width: fit-content;
+  padding: 30px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.btns {
+  display: flex;
+}
