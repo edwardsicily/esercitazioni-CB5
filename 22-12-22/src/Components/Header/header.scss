@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  background: #0d21a1;
+  color: #fff;
+  height: 60px;
+  padding: 0.6rem;
+
+  .logo {
+    height: 50px;
+  }
+  .navbar {
+    padding: 1rem 0;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 1rem;
+    }
+
+    li {
+      display: inline-block;
+      cursor: pointer;
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+}

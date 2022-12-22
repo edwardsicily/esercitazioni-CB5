@@ -1,0 +1,17 @@
+.btn {
+  padding: 10px 12px;
+  border-radius: 0.4rem;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.btn--variant-none {
+  background-color: #646cff;
+}
+
+.btn--variant-primary {
+  background-color: #eec643;
+  color: black;
+  width: 80px;
+}
