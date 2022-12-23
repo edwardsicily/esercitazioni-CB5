@@ -1,0 +1,12 @@
+.footer {
+  height: 200px;
+  background: #0d21a1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .text {
+    font-weight: bold;
+    font-size: xx-large;
+  }
+}

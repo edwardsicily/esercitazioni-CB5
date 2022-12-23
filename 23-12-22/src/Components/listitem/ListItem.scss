@@ -1,0 +1,29 @@
+li {
+  color: black;
+  display: block;
+}
+.item-container {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  padding: 6px;
+  border-radius: 6px;
+  &:hover {
+    background-color: lightgray;
+  }
+}
+
+.name {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.status {
+  cursor: pointer;
+}
+.status-done {
+  color: green;
+}
+.status-todo {
+  color: red;
+}
