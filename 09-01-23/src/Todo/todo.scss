@@ -1,0 +1,23 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background: url("img/background.png");
+
+  background-size: cover;
+  form {
+    outline: 1px solid #1f1f1f;
+    border-radius: 20px;
+    overflow: hidden;
+    background: white;
+    &:hover {
+      box-shadow: 0 1px 4px rgba($color: #000000, $alpha: 0.4);
+    }
+  }
+  ul {
+    margin: 8px 0;
+    padding-left: 20px;
+  }
+}
