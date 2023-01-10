@@ -1,0 +1,12 @@
+.lottery-container {
+  height: 100px;
+}
+ul {
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  list-style-type: none;
+}
