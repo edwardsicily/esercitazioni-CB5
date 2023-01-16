@@ -1,0 +1,17 @@
+.new-post {
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+input {
+  padding: 0.3rem;
+  outline: none;
+}
+input:first-child {
+}
+input:last-child {
+  background: aqua;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
