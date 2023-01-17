@@ -1,0 +1,12 @@
+.friend-list {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 8px 6px;
+}
+@media (min-width: 800px) {
+  .friend-list {
+    flex-direction: column;
+    padding: 1rem;
+  }
+}

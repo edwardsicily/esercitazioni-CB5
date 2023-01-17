@@ -4,3 +4,54 @@
   align-items: center;
   gap: 1rem;
 }
+.friend-section {
+  width: 100vw;
+  overflow-x: scroll;
+  order: 2;
+}
+.search-section {
+  order: 1;
+  width: 100vw;
+  display: none;
+}
+.main-section {
+  order: 3;
+}
+
+@media (min-width: 800px) {
+  .App {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main-section {
+    max-width: 750px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    order: 2;
+  }
+  .friend-section {
+    border-radius: 4px;
+    max-width: 300px;
+    height: 60vh;
+    align-self: flex-start;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    order: 1;
+  }
+  .friend-section::-webkit-scrollbar {
+    display: none;
+  }
+  .search-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 400px;
+    align-self: flex-start;
+    order: 3;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  }
+}

@@ -1,0 +1,36 @@
+.friend-component {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.friend-component img {
+  border: 1.3px solid blue;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.friend-component img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.friend-info {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .friend-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 0.5rem;
+  }
+  .friend-info > h4,
+  h5 {
+    margin: 0;
+  }
+  .friend-info > h5 {
+    color: #24242450;
+  }
+}

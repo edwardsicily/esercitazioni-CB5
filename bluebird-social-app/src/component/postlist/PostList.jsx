@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useFetch } from "../../fetch/my-useFetch";
 import { ENDPOINTS } from "../../fetch/endpoints";
-import Post from "../post/post";
+import Post from "../post/Post";
+import { GET } from "../../utils/http";
 import "./postlist.css";
 
 function PostList() {
-  const { data, error, loading, refetch } = useFetch(ENDPOINTS.POSTS);
+  const { data, error, loading } = useFetch(ENDPOINTS.POSTS);
 
   if (loading) return <div>Loading...</div>;
   if (error)
@@ -20,7 +21,6 @@ function PostList() {
       {data?.posts?.map((el, idx) => {
         return <Post key={idx} postInfo={el} />;
       })}
-      <button onClick={refetch}>RELOAD</button>
     </main>
   );
 }

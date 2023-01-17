@@ -1,0 +1,30 @@
+.search-form {
+  width: 100%;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.search-form input {
+  outline: none;
+  border: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+.text-input {
+  padding: 8px 12px;
+  background: none;
+  border: none;
+  width: 70%;
+  border-radius: 2px;
+}
+.btn-submit {
+  background: rgba(0, 0, 255, 0.725);
+  margin-right: 15%;
+  width: fit-content;
+  cursor: pointer;
+  border-radius: 1rem;
+  align-self: flex-end;
+  padding: 8px 12px;
+  color: white;
+}

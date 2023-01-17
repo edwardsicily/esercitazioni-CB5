@@ -5,7 +5,7 @@ export function useFetch(urlToFetch) {
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const fetchData = async () => {
+  const getData = async () => {
     setData(null);
     setError(null);
     setLoading(true);
@@ -23,13 +23,13 @@ export function useFetch(urlToFetch) {
   };
 
   useEffect(() => {
-    fetchData();
+    getData();
   }, []);
 
   return {
     data,
     error,
     loading,
-    refetch: fetchData,
+    getData,
   };
 }

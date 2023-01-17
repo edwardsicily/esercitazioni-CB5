@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { useFetch } from "../../fetch/my-useFetch";
 import { ENDPOINTS } from "../../fetch/endpoints";
+import { AiOutlineHeart } from "react-icons/ai";
 import "./post.css";
 function Post({ postInfo }) {
   const { data, error, loading, refetch } = useFetch(
     `${ENDPOINTS.USERS}/${postInfo.userId}`
   );
+  if (loading) return <div>Loading...</div>;
   return (
     <div className="post">
       <div className="top">
@@ -16,6 +18,10 @@ function Post({ postInfo }) {
       <div className="content">{postInfo.body}</div>
 
       <div className="bottom"></div>
+      <div className="post-icon heart-icon">
+        <AiOutlineHeart />
+        {`${postInfo?.reactions}`}
+      </div>
     </div>
   );
 }

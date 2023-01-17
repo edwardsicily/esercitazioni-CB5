@@ -6,4 +6,7 @@ export const ENDPOINTS = {
   get USERS() {
     return `${this.BASE}/users`;
   },
+  get NEWPOST() {
+    return `${this.BASE}/posts/add`;
+  },
 };
