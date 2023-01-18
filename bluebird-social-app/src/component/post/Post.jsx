@@ -2,12 +2,19 @@ import React, { useEffect, useState } from "react";
 import { useFetch } from "../../fetch/my-useFetch";
 import { ENDPOINTS } from "../../fetch/endpoints";
 import { AiOutlineHeart } from "react-icons/ai";
+import Loading from "./Loading";
 import "./post.css";
 function Post({ postInfo }) {
   const { data, error, loading, refetch } = useFetch(
     `${ENDPOINTS.USERS}/${postInfo.userId}`
   );
-  if (loading) return <div>Loading...</div>;
+
+  if (loading)
+    return (
+      <>
+        <Loading />
+      </>
+    );
   return (
     <div className="post">
       <div className="top">
