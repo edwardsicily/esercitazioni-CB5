@@ -1,5 +1,7 @@
 .Modal {
   position: fixed;
+  transition: all 2s;
+  animation: fadeIn 1s;
 }
 
 .overlay {
@@ -22,4 +24,17 @@
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
   border-radius: 6px;
   background-color: white;
+}
+
+.modal-on {
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

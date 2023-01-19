@@ -2,6 +2,14 @@
   display: flex;
   gap: 2rem;
   align-items: center;
+  padding: 0.2rem;
+  border-radius: 4px;
+  background: white;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+.friend-component:hover {
+  background: rgba(36, 36, 36, 0.15);
 }
 .friend-component img {
   border: 1.3px solid blue;

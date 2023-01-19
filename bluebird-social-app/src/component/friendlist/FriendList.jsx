@@ -5,7 +5,7 @@ import Friend from "../friend/Friend";
 import { GET } from "../../utils/http";
 import "./friendlist.css";
 
-function FriendList() {
+function FriendList({ setModalChildren, setModalState }) {
   const [friendData, setFriendData] = useState([]);
 
   useEffect(() => {
@@ -19,7 +19,14 @@ function FriendList() {
   return (
     <div className="friend-list">
       {friendData.map((friend) => {
-        return <Friend key={friend.id} data={friend} />;
+        return (
+          <Friend
+            key={friend.id}
+            data={friend}
+            setModalChildren={setModalChildren}
+            setModalState={setModalState}
+          />
+        );
       })}
     </div>
   );

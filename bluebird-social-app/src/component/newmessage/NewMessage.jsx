@@ -5,7 +5,7 @@ import { useFetch } from "../../fetch/my-useFetch";
 import { POST } from "../../utils/http";
 import { useEffect } from "react";
 
-function NewMessage() {
+function NewMessage({ handleModal }) {
   const [messageText, setMessageText] = useState("");
   const [authorText, setAuthorText] = useState("");
   const [titleText, setTitleText] = useState("");
@@ -33,6 +33,7 @@ function NewMessage() {
   useEffect(() => {
     if (msgPost?.username && msgPost?.body) {
       POST(ENDPOINTS.NEWPOST, msgPost).then((res) => console.log(res));
+      if (handleModal) handleModal();
     }
   }, [msgPost]);
 
