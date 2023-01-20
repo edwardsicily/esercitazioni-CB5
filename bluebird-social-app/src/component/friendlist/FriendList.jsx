@@ -11,7 +11,6 @@ function FriendList({ setModalChildren, setModalState }) {
   useEffect(() => {
     GET(ENDPOINTS.USERS)
       .then(({ users }) => {
-        //console.log(users);
         setFriendData(users);
       })
       .catch((err) => console.log(err));

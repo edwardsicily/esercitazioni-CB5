@@ -12,10 +12,10 @@
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
 }
 .text-input {
+  width: 100%;
   padding: 8px 12px;
   background: none;
   border: none;
-  width: 70%;
   border-radius: 2px;
 }
 .btn-submit {
@@ -27,4 +27,9 @@
   align-self: flex-end;
   padding: 8px 12px;
   color: white;
+}
+@media (min-width: 800px) {
+  .text-input {
+    width: 70%;
+  }
 }

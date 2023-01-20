@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  --color-primary: #0176c3;
+  ---color-secondary: #c7eeff;
+  --color-tertiary: #1d242c;
+  --color-white: #fafafa;
 }
 body,
 html {

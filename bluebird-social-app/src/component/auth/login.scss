@@ -1,0 +1,23 @@
+.login-component {
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  form {
+    width: fit-content;
+    text-align: left;
+    border: 0.7px solid lightgray;
+    border-radius: 4px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+  }
+  .login-btn {
+    outline: none;
+    padding: 0.4rem;
+  }
+  .submit-btn {
+    padding: 0.3rem 0.6rem;
+  }
+}

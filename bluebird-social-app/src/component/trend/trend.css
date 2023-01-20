@@ -25,3 +25,7 @@ h5 {
   margin: 0;
   color: rgba(36, 36, 36, 0.4);
 }
+.trend-item > h3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

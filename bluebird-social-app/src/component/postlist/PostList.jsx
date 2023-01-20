@@ -22,6 +22,7 @@ function PostList({ searchValue }) {
           return;
         }
         setData(res.posts.filter((post) => post.body.includes(searchValue)));
+        console.log("array filtrato");
       })
       .catch((e) => setError(e))
       .finally(() => setLoading(false));

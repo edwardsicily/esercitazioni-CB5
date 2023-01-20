@@ -2,12 +2,12 @@ import React, { useRef } from "react";
 import "./modal.css";
 
 function Modal({ children, handleModal }) {
-  const modalRef = useRef(null);
+  const modalref = useRef(null);
 
-  const onHandleClick = () => modalRef.current.classList.toggle("modal-on");
+  const onHandleClick = () => modalref.current.classList.toggle("modal-on");
 
   return (
-    <div className="Modal" useRef={modalRef}>
+    <div className="Modal" useRef={modalref}>
       <div className="modal-content" onClick={onHandleClick}>
         {children}
       </div>
