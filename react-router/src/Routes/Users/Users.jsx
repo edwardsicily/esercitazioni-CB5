@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Header from "../components/Header/Header";
 import UsersItem from "./UsersItem/UsersItem";
 import styles from "./UsersItem/styles.module.scss";
 
@@ -15,7 +14,6 @@ function Users() {
   }, []);
   return (
     <div>
-      <Header />
       <div className={styles.UserWrapper}>
         {loading ? (
           <div>Loading...</div>

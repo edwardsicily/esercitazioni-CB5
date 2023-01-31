@@ -1,0 +1,34 @@
+.SinglePostWrapper {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.SinglePost {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  padding: 2rem;
+  text-align: center;
+  border: 1px solid lightgray;
+  box-shadow: 0 0 8px rgb(0 0 0 / 50%);
+  border-radius: 4px;
+}
+.Title {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.Body {
+  text-align: left;
+}
+.Bottom {
+  display: flex;
+  justify-content: space-around;
+}
+.btnContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}

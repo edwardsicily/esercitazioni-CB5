@@ -1,0 +1,34 @@
+.postsListWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  text-align: center;
+  gap: 2rem;
+}
+.postWrapper {
+  padding: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border: 0.7px solid lightgray;
+  gap: 1rem;
+
+  box-shadow: 0 0 8px rgb(0 0 0 / 0.1);
+  border-radius: 4px;
+
+  button {
+    padding: 6px 8px;
+    border: none;
+    background: rgba(36, 36, 36, 0.9);
+    box-shadow: 0 0 8px rgb(0 0 0 / 0.1);
+    color: #fafafa;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    &:hover {
+      background: rgba(36, 36, 36, 0.8);
+      box-shadow: 0 0 8px rgb(0 0 0 / 0.3);
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Header from "../components/Header/Header";
+import Button from "../../atoms/Button/Button";
 import { useParams, useNavigate } from "react-router-dom";
 import user from "./user.module.scss";
 
@@ -29,12 +29,10 @@ function User() {
       .then(() => setLoading(false));
   }, [userid]);
 
-  const onPrevBtn = () => navigate(`/Users/${prevParam}`);
-  const onNextBtn = () => navigate(`/Users/${nextParam}`);
+  const onPrevBtn = () => navigate(`/users/${prevParam}`);
+  const onNextBtn = () => navigate(`/users/${nextParam}`);
   return (
     <div>
-      <Header />
-
       <div className={user.userWrapper}>
         {loading ? (
           <div>Loading...</div>
@@ -49,10 +47,12 @@ function User() {
               <h4>{data?.age}</h4>
             </div>
             <div className={user.btnWrapper}>
-              <button disabled={userid == 1 ? true : false} onClick={onPrevBtn}>
-                prev
-              </button>
-              <button onClick={onNextBtn}>next</button>
+              <Button
+                content={"prev"}
+                disabled={userid == 1 ? true : false}
+                action={onPrevBtn}
+              />
+              <Button content={"next"} action={onNextBtn} />
             </div>
           </>
         )}
