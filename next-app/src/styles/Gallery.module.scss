@@ -1,0 +1,21 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.Title {
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  img {
+    border-radius: 16px;
+  }
+}
