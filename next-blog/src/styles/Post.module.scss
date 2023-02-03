@@ -1,0 +1,16 @@
+.Wrapper {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.Post {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #fafafa;
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+}

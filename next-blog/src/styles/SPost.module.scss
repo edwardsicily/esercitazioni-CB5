@@ -1,0 +1,26 @@
+.Wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 2rem;
+  max-width: 800px;
+  border: 1px solid #fafafa;
+  border-radius: 4px;
+
+  .Title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+  .Info,
+  .Body {
+    padding: 1rem;
+  }
+  .Info {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
